@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+/* over writing bootstrap class */
+h2 {margin-top: 10px;}   
+
+/** HEADER **/
+#header-nav {
+  background-color: #A9A9A9;
+  border-radius: 0;
+  width: auto;
+  border: 20px;
+  margin: 0px;
+}
+.navbar-header{padding-left: 50px;}
+.maxwidth {width: 100%; margin: 0px; padding: 0;}
+.menubutton {padding:  20px;}
+.largetext {
+    background-color: #f6b319;
+    margin: 25px;
+    padding:  25px;
+    clear: both; 
+    float:  left; 
+    overflow: auto;
+    height: 500px;}
+.navbar-brand h1 { /* Restaurant name */
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-align: left;
+  color:  black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+a:active {
+  color: black;
+}
+
+li {
+  background: #cce5ff;
+  color: black;
+  border-style: solid;
+  margin: 0px; }
+
+#nav-list {text-align: center;}
+.container {  background-color: #A9A9A9;
+            margin: 20px; }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+.navbar-brand {margin: 10px 50px;}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.icon-bar {color: black;}
+@media (min-width: 992px) /*medium and greater -md (desktop view) */
+ { 
+  #nav-list {display: none;}
+  .menu-item {margin: 5px 40px;}
+ }
+
+@media (min-width: 768px) and (max-width: 991px) /*small -sm (tablet view) */
+    { 
+    #nav-list {display: none;}
+    #collapsable-nav {display: none;}
+    .menu-item {margin: 5px 20px;}
+    }
+
+@media (max-width: 767px)  /*extra small -xs (mobile view) */
+{ 
+    #collapsable-nav 
+      {
+      width: 100%;
+      margin-left: -10px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      overflow: hidden;
+     }
+    .col-xs-8 {margin-right: 16.6%; margin-left: 16.6%;}
+    .navbar-collapse {padding-left: 0px; padding-right: 0px; }
+    .navbar-header {padding-right: 25px;
+                    padding-left: 10px;}
+    .navbar-nav {margin: 0px;}
+    #nav-list 
+      { a:link: {color: black};
+        a:visited; {color: black;}
+        a:focus {text-decoration: none;}
+        color: white;
+          margin-bottom: 0px;}
+}
