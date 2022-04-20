@@ -47,7 +47,7 @@ li {
 
 #nav-list {text-align: center;}
 .container {  background-color: #A9A9A9;
-            margin: 20px; }
+            margin: 0px; }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
